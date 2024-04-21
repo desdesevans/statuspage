@@ -1,4 +1,143 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+/* Add screen styles below */
+body {
+    background: #1E1E1E;
+}
+header {
+    margin: 50px;
+}
+h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    padding-top: 50px;
+}
+h2 {
+    color: #FFFFFF;
+    font-size: 64px;
+}
+h3 {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+p {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+section {
+    text-align: center;
+    padding-top: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, minmax(25px, 375px));
+    padding-bottom: 70px;
+}
+.grid-item:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+.sun {
+    background-color: #000000;
+    height: 651px;
+    width: 484px;
+}
+
+.mercury {
+    background-color: #000000;
+    height: 320px;
+    width: 241px;
+}
+.venus {
+    background-color: #000000;
+    height: 320px;
+    width: 241px;
+}
+.earth {
+    background-color: #000000;
+    height: 320px;
+    width: 241px;
+}
+.mars {
+    background-color: #000000;
+    height: 320px;
+    width: 241px;
+}
+.jupiter {
+    background-color: #000000;
+    height: 320px;
+    width: 241px;
+}
+.saturn {
+    background-color: #000000;
+    height: 320px;
+    width: 241px;
+}
+.uranus {
+    background-color: #000000;
+    height: 320px;
+    width: 241px;
+}
+.neptune {
+    background-color: #000000;
+    height: 320px;
+    width: 241px;
+}
+
+#sunip {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 20px;
+}
+
+#earthip {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 12px;
+}
+#jupiterip {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 12px;
+}
+#marsip {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 12px;
+}
+#mercuryip {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 12px;
+}
+#neptuneip {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 12px;
+}
+#saturnip {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 12px;
+}
+#uranusip {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 12px;
+}
+#venusip {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 12px;
 }
